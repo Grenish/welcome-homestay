@@ -1,15 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome Homestay Darjeeling</title>
-</head>
-<body>
-    <header>
-        <nav>
-            Hello
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./favicon/logo2.png" type="image/x-icon">
+    <meta name="description" content="Experience the warm hospitality of WelcomeHomestay, your ultimate homestay destination in enchanting Darjeeling. Immerse yourself in the wonders of this picturesque town, as we welcome you as part of our extended family. Discover the beauty of Darjeeling with a stay at WelcomeHomestay, where heartfelt hospitality meets the breathtaking landscapes of this charming locale.">
+    <meta name="keywords" content="Darjeeling, Homestay, Welcome Homestay, Webpage, Family, Budget, Cozy, Mountain, Himalaya, Charming, Tea, Queen, Comfort, Taste, Food, View, Travel, Tourist, Friendly, Best Tea, Local, Experience, Serenity">
+    <meta name="author" content="John Doe">
+    <script src="Components.js" defer></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <!-- <app-navbar></app-navbar> -->
+
+    <header class="w-full p-2 border-2 rounded-b-xl border-slate-200">
+        <nav class="w-full sm:w-[85%] m-auto flex justify-between items-center">
+          <div class="">
+            <a href="./index.html">
+              <img
+                src="./assets/logo.png"
+                alt="Welcome homestay logo"
+                class="w-28"
+              />
+            </a>
+          </div>
+          <div class="flex items-center space-x-5">
+            <ul class="md:flex space-x-4 items-center hidden">
+              <li>
+                <a href="./index.html">Home</a>
+              </li>
+              <li>
+                <a href="/">About Us</a>
+              </li>
+              <li>
+                <a href="/">Gallery</a>
+              </li>
+              <li>
+                <a href="/"">Contacts Us</a>
+              </li>
+              
+            </ul>
+            <button class="sm:flex hidden items-center border-2 border-green-500 pr-2 hover:bg-green-200 transition-colors duration-200 ease-in-out p-1 rounded-xl justify-between sm:text-md text-sm " id="openWhatsApp">
+              <img src="./icons/whatsapp.svg" alt="" class="sm:w-8 w-7 mr-1">
+              WhatsApp
+          </button>
+          </div>
+          <div class="">
+            <label class="hamburger">
+                <input type="checkbox">
+                <svg viewBox="0 0 32 32">
+                  <path class="line line-top-bottom" d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"></path>
+                  <path class="line" d="M7 16 27 16"></path>
+                </svg>
+              </label>
+          </div>
+          <div class="">
+            <ul class="flex flex-col space-x-4 items-center">
+                <li>
+                  <a href="./index.html">Home</a>
+                </li>
+                <li>
+                  <a href="/">About Us</a>
+                </li>
+                <li>
+                  <a href="/">Gallery</a>
+                </li>
+                <li>
+                  <a href="/"">Contacts Us</a>
+                </li>
+              </ul>
+          </div>
         </nav>
-    </header>
-</body>
+      </header>
+
+    <div class="">
+      <div class="" id="photoGallery">hi</div>
+    </div>
+
+    <!-- <script src="./photos.js"></script> -->
+  </body>
 </html>
