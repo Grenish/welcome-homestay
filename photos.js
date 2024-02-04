@@ -3,7 +3,7 @@ const photos = [];
 for (let i = 1; i <= 49; i++) {
   photos.push({
     id: i,
-    photo: `./assets/${i}.jpg`,
+    photo: `../assets/${i}.jpg`,
   });
 }
 
