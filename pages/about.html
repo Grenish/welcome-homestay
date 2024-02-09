@@ -50,15 +50,15 @@
             </a>
           </div>
           <div class="md:flex hidden items-center space-x-5">
-            <ul class="md:flex hidden space-x-4 items-center ">
+            <ul class="md:flex hidden space-x-4 items-center">
               <li>
-                <a href="../index.html" >Home</a>
+                <a href="../index.html">Home</a>
               </li>
               <li>
-                <a href="./about.html" >About Us</a>
+                <a href="./about.html" class="active">About Us</a>
               </li>
               <li>
-                <a href="./gallery.html" class="active">Gallery</a>
+                <a href="./gallery.html">Gallery</a>
               </li>
               <li>
                 <a href="../index.html#contactus">Contacts Us</a>
@@ -95,10 +95,10 @@
               <a href="../index.html">Home</a>
             </li>
             <li>
-              <a href="./about.html">About Us</a>
+              <a href="./about.html" class="active">About Us</a>
             </li>
             <li>
-              <a href="./gallery.html" class="active">Gallery</a>
+              <a href="./gallery.html">Gallery</a>
             </li>
             <li>
               <a href="../index.html#contactus">Contacts Us</a>
@@ -108,15 +108,156 @@
       </nav>
     </header>
 
-    <div class="">
-      <div class="px-6 sm:px-28 mt-5">
-        <div class="p-5 flex flex-col">
-          <span class="mont text-sm text-gray-600">Gallery</span>
-          <span class="mont font-bold text-gray-700"
-            >Lorem ipsum dolor sit amet consectetur.</span
+    <div class="bgimg mb-5">
+      <div class="bg-white pb-5">
+        <!-- about -->
+        <div class="bgimggradient">
+          <div
+            class="flex flex-col px-5 py-5 justify-between backdrop-blur-sm sm:flex-row sm:px-28 sm:pb-5"
           >
+            <div
+              class="rounded-xl overflow-hidden h-[70vh] w-full sm:w-[40%] mb-5 bg-rose-400 sm:mb-0"
+            >
+              <img
+                src="../assets/10.jpg"
+                alt="home"
+                class="w-full h-full object-fit"
+              />
+            </div>
+            <div class="w-full sm:w-[55%] flex flex-col p-5">
+              <span class="mont"> About Welcome Homestay </span>
+              <span class="text-xl font-semibold mt-2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+                quos nostrum animi!
+              </span>
+              <span class="mt-5">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+                natus non ut nulla. Eos repellat voluptas sed iure quia
+                possimus! Ratione, sit voluptatem.
+              </span>
+              <span class="mt-2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. A
+                maxime in recusandae odio ipsam optio deserunt itaque! Error
+                quasi consequatur officiis tenetur quam? Dignissimos eius nobis
+                vitae pariatur? Facere, officia molestias. Molestiae, dolorem
+                laborum.
+              </span>
+              <span class="mt-2">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi
+                distinctio aspernatur saepe cupiditate delectus doloremque iusto
+                repudiandae quisquam a, sint maxime magnam minus at sapiente
+                quas ipsam ex pariatur velit repellendus, natus inventore.
+                Blanditiis optio, porro accusantium autem nulla odit.
+              </span>
+            </div>
+          </div>
         </div>
-        <div id="photoGallery"></div>
+
+        <!-- cards -->
+        <div class="w-full px-4 md:px-28 flex flex-col space-y-5">
+          <div
+            class="flex flex-col md:flex-row md:space-x-5 space-y-0 md:space-y-0"
+          >
+            <div
+              class="bg-teal-400 p-5 rounded-xl flex flex-col w-full md:w-1/2 mb-5 md:mb-0"
+            >
+              <span class="mont font-semibold text-xl">
+                Lorem ipsum dolor sit amet consectetur.
+              </span>
+              <span class="mt-5 text-sm">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Temporibus ab, itaque illo cupiditate natus quia sit praesentium
+                corporis laboriosam, consequuntur blanditiis voluptatibus iste
+                in reprehenderit minus eaque possimus impedit et sequi
+                voluptatem?
+              </span>
+            </div>
+            <div
+              class="bg-teal-400 p-5 rounded-xl flex flex-col w-full md:w-1/2 mb-5 md:mb-0"
+            >
+              <span class="mont font-semibold text-xl">
+                Lorem ipsum dolor sit amet consectetur.
+              </span>
+              <span class="mt-5 text-sm">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere
+                earum distinctio id!
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-col md:flex-row md:space-x-5 space-y-0 md:space-y-0"
+          >
+            <div
+              class="bg-teal-400 p-5 rounded-xl flex flex-col w-full md:w-1/2 mb-5 md:mb-0"
+            >
+              <span class="mont font-semibold text-xl">
+                Lorem ipsum dolor sit amet consectetur.
+              </span>
+              <span class="mt-5 text-sm">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Temporibus ab, itaque illo cupiditate natus quia sit praesentium
+                corporis laboriosam, consequuntur blanditiis voluptatibus iste
+                in reprehenderit minus eaque possimus impedit et sequi
+                voluptatem?
+              </span>
+            </div>
+            <div
+              class="bg-teal-400 p-5 rounded-xl flex flex-col w-full md:w-1/2 mb-5 md:mb-0"
+            >
+              <span class="mont font-semibold text-xl">
+                Lorem ipsum dolor sit amet consectetur.
+              </span>
+              <span class="mt-5 text-sm">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere
+                earum distinctio id!
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- end -->
+      <div class="w-full px-4 md:px-28 p-5">
+        <div
+          class="glassbox p-5 flex flex-col-reverse md:flex-row justify-between"
+        >
+          <div class="flex flex-col w-full md:w-1/2 justify-end mb-5 md:mb-0">
+            <span class="mont font-semibold text-xl">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Molestias sint accusamus vel?
+            </span>
+            <span class="mt-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+              natus non ut nulla. Eos repellat voluptas sed iure quia possimus!
+              Ratione, sit voluptatem.
+            </span>
+            <span
+              class="mt-5 flex flex-col sm:flex-row justify-center sm:justify-start items-center gap-3"
+            >
+              <button
+                class="sm:p-3 p-2 sm:text-md text-sm border-2 border-blue-400 hover:bg-blue-300 transition-color ease-in-out duration-300 rounded-lg flex items-center gap-2"
+              >
+                <img src="../icons/phone.svg" alt="" class="w-5" />
+                +91 1234567890
+              </button>
+              <button
+                class="sm:p-3 p-2 sm:text-md text-sm border-2 border-green-400 hover:bg-green-300 transition-color ease-in-out duration-300 rounded-lg flex items-center gap-2"
+              >
+                <img src="../icons/whatsapp.svg" alt="" class="w-5" />
+                +91 1234567890
+              </button>
+            </span>
+          </div>
+          <div
+            class="glass overflow-hidden sm:mb-0 mb-5 w-full md:w-[50%] h-[40vh]"
+          >
+            <img
+              src="../assets/10.jpg"
+              alt="home"
+              class="w-full h-full object-fit"
+            />
+          </div>
+        </div>
       </div>
     </div>
 
@@ -232,6 +373,6 @@
       </div>
     </footer>
 
-    <script src="../photos.js"></script>
+    <!-- <script src="../photos.js"></script> -->
   </body>
 </html>
