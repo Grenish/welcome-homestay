@@ -1,9 +1,15 @@
-const hamburgerMenu = document.getElementById("handelOnClickMenu");
-const menu = document.getElementById("handelOnClickMenuContents");
+document.addEventListener("DOMContentLoaded", function () {
+  const toggleCheckbox = document.getElementById("toggleCheckbox");
+  const menuContents = document.getElementById("menuContents");
 
-hamburgerMenu.addEventListener("click", () => {
-  console.log("clicked");
-  console.log(menu.classList);
+  toggleCheckbox.addEventListener("click", function () {
+    console.log("clicked");
+    if (this.checked) {
+      menuContents.classList.remove("hidden");
+    } else {
+      menuContents.classList.add("hidden");
+    }
+  });
 });
 
 window.addEventListener("load", function () {
