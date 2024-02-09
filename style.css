@@ -1,10 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap"); */
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 @font-face {
@@ -47,7 +48,7 @@ body{
   scroll-behavior: smooth;}
 
 .mont {
-  font-family: "Montserrat Alternates", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .bodyback {
@@ -64,7 +65,7 @@ body{
 }
 
 .orn {
-  font-family: "Ornette Printed", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .hamburger {

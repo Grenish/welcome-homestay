@@ -1,96 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome Homestay Darjeeling | Gallery</title>
-    <link rel="stylesheet" href="../style.css" />
-    <link rel="shortcut icon" href="../favicon/logo2.png" type="image/x-icon" />
-    <meta
-      name="description"
-      content="Experience the warm hospitality of WelcomeHomestay, your ultimate homestay destination in enchanting Darjeeling. Immerse yourself in the wonders of this picturesque town, as we welcome you as part of our extended family. Discover the beauty of Darjeeling with a stay at WelcomeHomestay, where heartfelt hospitality meets the breathtaking landscapes of this charming locale."
-    />
-    <meta
-      name="keywords"
-      content="Darjeeling, Homestay, Welcome Homestay, Webpage, Family, Budget, Cozy, Mountain, Himalaya, Charming, Tea, Queen, Comfort, Taste, Food, View, Travel, Tourist, Friendly, Best Tea, Local, Experience, Serenity"
-    />
-    <meta name="author" content="John Doe" />
-    <script src="../Components.js" defer></script>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              clifford: "#da373d",
-              lightb: "#B8DBD9",
-              spring: "#04724D",
-              back: "#FDF5E6",
-              orchid: "#EFB9CB",
-            },
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome Homestay Darjeeling | Gallery</title>
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="shortcut icon" href="../favicon/logo2.png" type="image/x-icon" />
+  <meta name="description"
+    content="Experience the warm hospitality of WelcomeHomestay, your ultimate homestay destination in enchanting Darjeeling. Immerse yourself in the wonders of this picturesque town, as we welcome you as part of our extended family. Discover the beauty of Darjeeling with a stay at WelcomeHomestay, where heartfelt hospitality meets the breathtaking landscapes of this charming locale." />
+  <meta name="keywords"
+    content="Darjeeling, Homestay, Welcome Homestay, Webpage, Family, Budget, Cozy, Mountain, Himalaya, Charming, Tea, Queen, Comfort, Taste, Food, View, Travel, Tourist, Friendly, Best Tea, Local, Experience, Serenity" />
+  <meta name="author" content="John Doe" />
+  <script src="../Components.js" defer></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: "#da373d",
+            lightb: "#B8DBD9",
+            spring: "#04724D",
+            back: "#FDF5E6",
+            orchid: "#EFB9CB",
           },
         },
-      };
-    </script>
-    <script src="/script.js" defer></script>
-  </head>
-  <body>
-    <header class="w-full p-2 border-2 rounded-b-xl border-slate-200">
-      <nav
-        class="w-full sm:w-[85%] m-auto sm:flex flex-col transition-all duration-200 ease-in-out justify-between items-center"
-      >
-        <div class="w-full flex justify-between items-center">
-          <div class="">
-            <a href="../index.html">
-              <img
-                src="../assets/logo.png"
-                alt="Welcome homestay logo"
-                class="w-28"
-              />
-            </a>
-          </div>
-          <div class="md:flex hidden items-center space-x-5">
-            <ul class="md:flex hidden space-x-4 items-center">
-              <li>
-                <a href="../index.html">Home</a>
-              </li>
-              <li>
-                <a href="./about.html" class="active">About Us</a>
-              </li>
-              <li>
-                <a href="./gallery.html">Gallery</a>
-              </li>
-              <li>
-                <a href="../index.html#contactus">Contacts Us</a>
-              </li>
-            </ul>
-            <button
-              class="sm:flex hidden items-center border-2 border-green-500 pr-2 hover:bg-green-200 transition-colors duration-200 ease-in-out p-1 rounded-xl justify-between sm:text-md text-sm"
-              id="openWhatsApp"
-            >
-              <img src="../icons/whatsapp.svg" alt="" class="sm:w-8 w-7 mr-1" />
-              WhatsApp
-            </button>
-          </div>
-          <div class="block sm:hidden">
-            <button id="toggleMenu" class="hamburger">
-              <label>
-                <input type="checkbox" id="toggleCheckbox" />
-                <svg viewBox="0 0 32 32">
-                  <path
-                    class="line line-top-bottom"
-                    d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"
-                  ></path>
-                  <path class="line" d="M7 16 27 16"></path>
-                </svg>
-              </label>
-            </button>
-          </div>
+      },
+    };
+  </script>
+  <script src="/script.js" defer></script>
+</head>
+
+<body>
+  <header class="w-full p-2 border-2 rounded-b-xl border-slate-200">
+    <nav
+      class="w-full sm:w-[85%] m-auto sm:flex flex-col transition-all duration-200 ease-in-out justify-between items-center">
+      <div class="w-full flex justify-between items-center">
+        <div class="">
+          <a href="../index.html">
+            <img src="../assets/logo.png" alt="Welcome homestay logo" class="w-28" />
+          </a>
         </div>
-        <div class="w-full hidden" id="menuContents">
-          <ul
-            class="flex flex-col justify-center items-center mt-2 rounded-md border-2 space-y-2"
-          >
+        <div class="md:flex hidden items-center space-x-5">
+          <ul class="md:flex hidden space-x-4 items-center">
             <li>
               <a href="../index.html">Home</a>
             </li>
@@ -104,275 +57,232 @@
               <a href="../index.html#contactus">Contacts Us</a>
             </li>
           </ul>
+          <button
+            class="sm:flex hidden items-center border-2 border-green-500 pr-2 hover:bg-green-200 transition-colors duration-200 ease-in-out p-1 rounded-xl justify-between sm:text-md text-sm"
+            id="openWhatsApp">
+            <img src="../icons/whatsapp.svg" alt="" class="sm:w-8 w-7 mr-1" />
+            WhatsApp
+          </button>
         </div>
-      </nav>
-    </header>
-
-    <div class="bgimg mb-5">
-      <div class="bg-white pb-5">
-        <!-- about -->
-        <div class="bgimggradient">
-          <div
-            class="flex flex-col px-5 py-5 justify-between backdrop-blur-sm sm:flex-row sm:px-28 sm:pb-5"
-          >
-            <div
-              class="rounded-xl overflow-hidden h-[70vh] w-full sm:w-[40%] mb-5 bg-rose-400 sm:mb-0"
-            >
-              <img
-                src="../assets/10.jpg"
-                alt="home"
-                class="w-full h-full object-fit"
-              />
-            </div>
-            <div class="w-full sm:w-[55%] flex flex-col p-5">
-              <span class="mont"> About Welcome Homestay </span>
-              <span class="text-xl font-semibold mt-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
-                quos nostrum animi!
-              </span>
-              <span class="mt-5">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-                natus non ut nulla. Eos repellat voluptas sed iure quia
-                possimus! Ratione, sit voluptatem.
-              </span>
-              <span class="mt-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. A
-                maxime in recusandae odio ipsam optio deserunt itaque! Error
-                quasi consequatur officiis tenetur quam? Dignissimos eius nobis
-                vitae pariatur? Facere, officia molestias. Molestiae, dolorem
-                laborum.
-              </span>
-              <span class="mt-2">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi
-                distinctio aspernatur saepe cupiditate delectus doloremque iusto
-                repudiandae quisquam a, sint maxime magnam minus at sapiente
-                quas ipsam ex pariatur velit repellendus, natus inventore.
-                Blanditiis optio, porro accusantium autem nulla odit.
-              </span>
-            </div>
-          </div>
+        <div class="block sm:hidden">
+          <button id="toggleMenu" class="hamburger">
+            <label>
+              <input type="checkbox" id="toggleCheckbox" />
+              <svg viewBox="0 0 32 32">
+                <path class="line line-top-bottom"
+                  d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22">
+                </path>
+                <path class="line" d="M7 16 27 16"></path>
+              </svg>
+            </label>
+          </button>
         </div>
+      </div>
+      <div class="w-full hidden" id="menuContents">
+        <ul class="flex flex-col justify-center items-center mt-2 rounded-md border-2 space-y-2">
+          <li>
+            <a href="../index.html">Home</a>
+          </li>
+          <li>
+            <a href="./about.html" class="active">About Us</a>
+          </li>
+          <li>
+            <a href="./gallery.html">Gallery</a>
+          </li>
+          <li>
+            <a href="../index.html#contactus">Contacts Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
 
-        <!-- cards -->
-        <div class="w-full px-4 md:px-28 flex flex-col space-y-5">
-          <div
-            class="flex flex-col md:flex-row md:space-x-5 space-y-0 md:space-y-0"
-          >
-            <div
-              class="bg-teal-400 p-5 rounded-xl flex flex-col w-full md:w-1/2 mb-5 md:mb-0"
-            >
-              <span class="mont font-semibold text-xl">
-                Lorem ipsum dolor sit amet consectetur.
-              </span>
-              <span class="mt-5 text-sm">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Temporibus ab, itaque illo cupiditate natus quia sit praesentium
-                corporis laboriosam, consequuntur blanditiis voluptatibus iste
-                in reprehenderit minus eaque possimus impedit et sequi
-                voluptatem?
-              </span>
-            </div>
-            <div
-              class="bg-teal-400 p-5 rounded-xl flex flex-col w-full md:w-1/2 mb-5 md:mb-0"
-            >
-              <span class="mont font-semibold text-xl">
-                Lorem ipsum dolor sit amet consectetur.
-              </span>
-              <span class="mt-5 text-sm">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere
-                earum distinctio id!
-              </span>
-            </div>
+  <div class="bgimg mb-5">
+    <div class="bg-white pb-5">
+      <!-- about -->
+      <div class="bgimggradient">
+        <div class="flex flex-col px-5 py-5 justify-between backdrop-blur-sm sm:flex-row sm:px-28 sm:pb-5">
+          <div class="rounded-xl overflow-hidden h-[70vh] w-full sm:w-[40%] mb-5 bg-rose-400 sm:mb-0">
+            <img src="../assets/10.jpg" alt="home" class="w-full h-full object-fit" />
           </div>
-          <div
-            class="flex flex-col md:flex-row md:space-x-5 space-y-0 md:space-y-0"
-          >
-            <div
-              class="bg-teal-400 p-5 rounded-xl flex flex-col w-full md:w-1/2 mb-5 md:mb-0"
-            >
-              <span class="mont font-semibold text-xl">
-                Lorem ipsum dolor sit amet consectetur.
-              </span>
-              <span class="mt-5 text-sm">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Temporibus ab, itaque illo cupiditate natus quia sit praesentium
-                corporis laboriosam, consequuntur blanditiis voluptatibus iste
-                in reprehenderit minus eaque possimus impedit et sequi
-                voluptatem?
-              </span>
-            </div>
-            <div
-              class="bg-teal-400 p-5 rounded-xl flex flex-col w-full md:w-1/2 mb-5 md:mb-0"
-            >
-              <span class="mont font-semibold text-xl">
-                Lorem ipsum dolor sit amet consectetur.
-              </span>
-              <span class="mt-5 text-sm">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere
-                earum distinctio id!
-              </span>
-            </div>
+          <div class="w-full sm:w-[55%] flex flex-col p-5">
+            <span class="mont"> About Welcome Homestay </span>
+            <span class="text-xl font-semibold mt-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+              quos nostrum animi!
+            </span>
+            <span class="mt-5">
+              Welcome to Welcome Homestay, your serene haven nestled in the breathtaking foothills of the Himalayas in
+              Darjeeling. Embraced by the tranquility of nature and enriched by the warmth of local hospitality, Welcome
+              Homestay offers you an unforgettable retreat amidst the majestic Himalayan landscape.
+            </span>
+            <span class="mt-2">
+              At Welcome Homestay, our dedicated team is committed to ensuring that your stay is nothing short of extraordinary. Whether it's arranging guided tours to iconic landmarks, organizing cultural experiences, or catering to your dietary preferences, we go above and beyond to tailor our services to meet your needs and exceed your expectations.
+            </span>
+            <span class="mt-2">
+              Escape the hustle and bustle of city life and embark on a soulful journey to Welcome Homestay, where every moment is a celebration of nature, culture, and heartfelt hospitality. Whether you're seeking a romantic getaway, a family vacation, or a solo adventure, let Welcome Homestay be your gateway to an authentic Himalayan experience.
+            </span>
+            <span class="mt-2">
+              Experience the essence of Darjeeling hospitality at Welcome Homestay – your oasis of serenity in the heart of the Himalayas. Welcome home!
+            </span>
           </div>
         </div>
       </div>
 
-      <!-- end -->
-      <div class="w-full px-4 md:px-28 p-5">
-        <div
-          class="glassbox p-5 flex flex-col-reverse md:flex-row justify-between"
-        >
-          <div class="flex flex-col w-full md:w-1/2 justify-end mb-5 md:mb-0">
+      <!-- cards -->
+      <div class="w-full px-4 md:px-28 flex flex-col space-y-5">
+        <div class="flex flex-col md:flex-row md:space-x-5 space-y-0 md:space-y-0">
+          <div class="bg-teal-400 p-5 rounded-xl flex flex-col w-full md:w-1/2 mb-5 md:mb-0">
             <span class="mont font-semibold text-xl">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Molestias sint accusamus vel?
+              Our Location
             </span>
-            <span class="mt-5">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-              natus non ut nulla. Eos repellat voluptas sed iure quia possimus!
-              Ratione, sit voluptatem.
-            </span>
-            <span
-              class="mt-5 flex flex-col sm:flex-row justify-center sm:justify-start items-center gap-3"
-            >
-              <button
-                class="sm:p-3 p-2 sm:text-md text-sm border-2 border-blue-400 hover:bg-blue-300 transition-color ease-in-out duration-300 rounded-lg flex items-center gap-2"
-              >
-                <img src="../icons/phone.svg" alt="" class="w-5" />
-                +91 1234567890
-              </button>
-              <button
-                class="sm:p-3 p-2 sm:text-md text-sm border-2 border-green-400 hover:bg-green-300 transition-color ease-in-out duration-300 rounded-lg flex items-center gap-2"
-              >
-                <img src="../icons/whatsapp.svg" alt="" class="w-5" />
-                +91 1234567890
-              </button>
+            <span class="mt-5 text-sm">
+              Welcome Homestay is strategically situated in Darjeeling, a picturesque town renowned for its lush tea gardens, panoramic vistas, and vibrant culture. Our homestay provides you with easy access to Darjeeling's most iconic attractions, including the renowned Darjeeling Himalayan Railway, Tiger Hill, and the vibrant markets brimming with local crafts and flavors.
             </span>
           </div>
-          <div
-            class="glass overflow-hidden sm:mb-0 mb-5 w-full md:w-[50%] h-[40vh]"
-          >
-            <img
-              src="../assets/10.jpg"
-              alt="home"
-              class="w-full h-full object-fit"
-            />
+          <div class="bg-teal-400 p-5 rounded-xl flex flex-col w-full md:w-1/2 mb-5 md:mb-0">
+            <span class="mont font-semibold text-xl">
+              Your Home Away From Home
+            </span>
+            <span class="mt-5 text-sm">
+              At Welcome Homestay, we pride ourselves on offering a home away from home experience. Our cozy and well-appointed accommodations provide you with a comfortable sanctuary to unwind and rejuvenate after a day of exploration. Each room is thoughtfully designed to reflect the charm of the region while ensuring modern amenities for your convenience.
+            </span>
+          </div>
+        </div>
+        <div class="flex flex-col md:flex-row md:space-x-5 space-y-0 md:space-y-0">
+          <div class="bg-teal-400 p-5 rounded-xl flex flex-col w-full md:w-1/2 mb-5 md:mb-0">
+            <span class="mont font-semibold text-xl">
+              Immerse in Local Culture
+            </span>
+            <span class="mt-5 text-sm">
+              Experience the rich cultural tapestry of Darjeeling by immersing yourself in the vibrant traditions of our community. From savoring authentic Himalayan cuisine prepared with locally sourced ingredients to engaging in insightful conversations with our friendly hosts, Welcome Homestay invites you to become a part of our extended family and create cherished memories that will last a lifetime.
+            </span>
+          </div>
+          <div class="bg-teal-400 p-5 rounded-xl flex flex-col w-full md:w-1/2 mb-5 md:mb-0">
+            <span class="mont font-semibold text-xl">
+              Explore Nature's Splendor
+            </span>
+            <span class="mt-5 text-sm">
+              Wake up to the melodious chirping of birds and the refreshing aroma of mountain air as you step outside to explore the natural wonders surrounding our homestay. Embark on invigorating nature walks through verdant forests, indulge in birdwatching amidst lush landscapes, or simply bask in the tranquility of our garden while soaking in panoramic views of the Himalayas.
+            </span>
           </div>
         </div>
       </div>
     </div>
 
-    <footer class="border-t-2 rounded-t-xl border-x-2 py-5 md:px-2 lg:px-28">
-      <div
-        class="flex flex-col md:flex-row md:items-start md:justify-between pb-4"
-      >
-        <!-- Footer left -->
-        <div
-          class="flex flex-col items-center mb-6 md:mb-0 md:items-start md:w-1/2"
-        >
-          <img
-            src="../assets/logo-transparent.png"
-            alt="logo"
-            class="w-36 mb-2 md:mb-3"
-          />
-          <h2
-            class="mont text-xl md:text-2xl font-bold text-center md:text-left"
-          >
-            WELCOME HOMESTAY
-          </h2>
-          <p
-            class="text-xs md:w-2/3 text-center md:text-left leading-snug mt-2"
-          >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
-            est obcaecati possimus?
-          </p>
-          <div class="flex mt-3 gap-3">
-            <a
-              href=""
-              target="_blank"
-              aria-label="Facebook"
-              rel="noopener noreferrer"
-            >
-              <img src="../icons/facebook.svg" alt="Facebook" class="w-6" />
-            </a>
-            <a
-              href=""
-              target="_blank"
-              aria-label="Instagram"
-              rel="noopener noreferrer"
-            >
-              <img src="../icons/instagram.svg" alt="Instagram" class="w-6" />
-            </a>
-            <a
-              href=""
-              target="_blank"
-              aria-label="Twitter"
-              rel="noopener noreferrer"
-            >
-              <img src="../icons/twitter.svg" alt="Twitter" class="w-6" />
-            </a>
-          </div>
-        </div>
-        <!-- Footer right -->
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:w-1/2 p-6 sm:p-0">
-          <div class="">
-            <span class="mont font-bold">Quick Links</span>
-            <ul class="p-2">
-              <li class="mont text-sm">
-                <a href="../index.html">Home</a>
-              </li>
-              <li class="mont text-sm mt-2">
-                <a href="./about.html">About Us</a>
-              </li>
-              <li class="mont text-sm mt-2">
-                <a href="./gallery.html">Gallery</a>
-              </li>
-            </ul>
-          </div>
-          <div class="">
-            <span class="mont font-bold">Support</span>
-            <ul class="p-2">
-              <li class="mont text-sm">
-                <a href="../index.html#contactus">Contact Us</a>
-              </li>
-            </ul>
-          </div>
-          <div class="">
-            <span class="mont font-bold">Policies</span>
-            <ul class="p-2">
-              <li class="mont text-sm">
-                <a href="#">Rules</a>
-              </li>
-              <li class="mont text-sm mt-2">
-                <a href="#">Privacy Policy</a>
-              </li>
-              <li class="mont text-sm mt-2">
-                <a href="#">Terms & Conditions</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <hr class="mb-4" />
-      <!-- Footer bottom -->
-      <div
-        class="flex flex-col md:flex-row justify-between items-center md:items-end text-center md:text-left"
-      >
-        <span class="mont text-xs mb-2 md:mb-0">© 2024 Welcome Homestay</span>
-        <div class="text-xs mont flex flex-col">
-          <span>Maintained by Kunsang Moktan</span>
-          <span>
-            <a
-              href="https://grenishrai.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Designed & Developed by Grenish Rai
-            </a>
+    <!-- end -->
+    <div class="w-full px-4 md:px-28 p-5">
+      <div class="glassbox p-5 flex flex-col-reverse md:flex-row justify-between">
+        <div class="flex flex-col w-full md:w-1/2 justify-end mb-5 md:mb-0">
+          <span class="mont font-semibold text-xl">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Molestias sint accusamus vel?
+          </span>
+          <span class="mt-5">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+            natus non ut nulla. Eos repellat voluptas sed iure quia possimus!
+            Ratione, sit voluptatem.
+          </span>
+          <span class="mt-5 flex flex-col sm:flex-row justify-center sm:justify-start items-center gap-3">
+            <button
+              class="sm:p-3 p-2 sm:text-md text-sm border-2 border-blue-400 hover:bg-blue-300 transition-color ease-in-out duration-300 rounded-lg flex items-center gap-2">
+              <img src="../icons/phone.svg" alt="" class="w-5" />
+              +91 1234567890
+            </button>
+            <button
+              class="sm:p-3 p-2 sm:text-md text-sm border-2 border-green-400 hover:bg-green-300 transition-color ease-in-out duration-300 rounded-lg flex items-center gap-2">
+              <img src="../icons/whatsapp.svg" alt="" class="w-5" />
+              +91 1234567890
+            </button>
           </span>
         </div>
+        <div class="glass overflow-hidden sm:mb-0 mb-5 w-full md:w-[50%] h-[40vh]">
+          <img src="../assets/10.jpg" alt="home" class="w-full h-full object-fit" />
+        </div>
       </div>
-    </footer>
+    </div>
+  </div>
 
-    <!-- <script src="../photos.js"></script> -->
-  </body>
+  <footer class="border-t-2 rounded-t-xl border-x-2 py-5 md:px-2 lg:px-28">
+    <div class="flex flex-col md:flex-row md:items-start md:justify-between pb-4">
+      <!-- Footer left -->
+      <div class="flex flex-col items-center mb-6 md:mb-0 md:items-start md:w-1/2">
+        <img src="../assets/logo-transparent.png" alt="logo" class="w-36 mb-2 md:mb-3" />
+        <h2 class="mont text-xl md:text-2xl font-bold text-center md:text-left">
+          WELCOME HOMESTAY
+        </h2>
+        <p class="text-xs md:w-2/3 text-center md:text-left leading-snug mt-2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+          est obcaecati possimus?
+        </p>
+        <div class="flex mt-3 gap-3">
+          <a href="" target="_blank" aria-label="Facebook" rel="noopener noreferrer">
+            <img src="../icons/facebook.svg" alt="Facebook" class="w-6" />
+          </a>
+          <a href="" target="_blank" aria-label="Instagram" rel="noopener noreferrer">
+            <img src="../icons/instagram.svg" alt="Instagram" class="w-6" />
+          </a>
+          <a href="" target="_blank" aria-label="Twitter" rel="noopener noreferrer">
+            <img src="../icons/twitter.svg" alt="Twitter" class="w-6" />
+          </a>
+        </div>
+      </div>
+      <!-- Footer right -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:w-1/2 p-6 sm:p-0">
+        <div class="">
+          <span class="mont font-bold">Quick Links</span>
+          <ul class="p-2">
+            <li class="mont text-sm">
+              <a href="../index.html">Home</a>
+            </li>
+            <li class="mont text-sm mt-2">
+              <a href="./about.html">About Us</a>
+            </li>
+            <li class="mont text-sm mt-2">
+              <a href="./gallery.html">Gallery</a>
+            </li>
+          </ul>
+        </div>
+        <div class="">
+          <span class="mont font-bold">Support</span>
+          <ul class="p-2">
+            <li class="mont text-sm">
+              <a href="../index.html#contactus">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="">
+          <span class="mont font-bold">Policies</span>
+          <ul class="p-2">
+            <li class="mont text-sm">
+              <a href="#">Rules</a>
+            </li>
+            <li class="mont text-sm mt-2">
+              <a href="#">Privacy Policy</a>
+            </li>
+            <li class="mont text-sm mt-2">
+              <a href="#">Terms & Conditions</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <hr class="mb-4" />
+    <!-- Footer bottom -->
+    <div class="flex flex-col md:flex-row justify-between items-center md:items-end text-center md:text-left">
+      <span class="mont text-xs mb-2 md:mb-0">© 2024 Welcome Homestay</span>
+      <div class="text-xs mont flex flex-col">
+        <span>Maintained by Kunsang Moktan</span>
+        <span>
+          <a href="https://grenishrai.vercel.app/" target="_blank" rel="noopener noreferrer">
+            Designed & Developed by Grenish Rai
+          </a>
+        </span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- <script src="../photos.js"></script> -->
+</body>
+
 </html>
