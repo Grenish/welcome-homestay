@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap");
 
 * {
   margin: 0;
@@ -7,49 +7,50 @@
   font-family: "Poppins", sans-serif;
 }
 
-
 @font-face {
-  font-family: 'Nillota';
-  src: url('fonts/Nillota-Bold.woff2') format('woff2'),
-      url('fonts/Nillota-Bold.woff') format('woff');
+  font-family: "Nillota";
+  src: url("fonts/Nillota-Bold.woff2") format("woff2"),
+    url("fonts/Nillota-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Nillota';
-  src: url('fonts/Nillota-Thin.woff2') format('woff2'),
-      url('fonts/Nillota-Thin.woff') format('woff');
+  font-family: "Nillota";
+  src: url("fonts/Nillota-Thin.woff2") format("woff2"),
+    url("fonts/Nillota-Thin.woff") format("woff");
   font-weight: 100;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Nillota';
-  src: url('fonts/Nillota-Regular.woff2') format('woff2'),
-      url('fonts/Nillota-Regular.woff') format('woff');
+  font-family: "Nillota";
+  src: url("fonts/Nillota-Regular.woff2") format("woff2"),
+    url("fonts/Nillota-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Ornette Printed';
-  src: url('fonts/OrnettePrinted.woff2') format('woff2'),
-      url('fonts/OrnettePrinted.woff') format('woff');
+  font-family: "Ornette Printed";
+  src: url("fonts/OrnettePrinted.woff2") format("woff2"),
+    url("fonts/OrnettePrinted.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
-.mont{
-  font-family: 'Montserrat Alternates', sans-serif;
+body{
+  scroll-behavior: smooth;}
 
+.mont {
+  font-family: "Montserrat Alternates", sans-serif;
 }
 
-.bodyback{
+.bodyback {
   width: 100%;
   /* Add your background pattern here */
   background-color: #ffffff;
@@ -58,15 +59,12 @@
   background-position: -5px -5px;
 }
 
-
-
-.nill{
-  font-family: 'Nillota', sans-serif;
-
+.nill {
+  font-family: "Nillota", sans-serif;
 }
 
-.orn{
-  font-family: 'Ornette Printed', sans-serif;
+.orn {
+  font-family: "Ornette Printed", sans-serif;
 }
 
 .hamburger {
@@ -105,11 +103,11 @@
   stroke-dashoffset: -32.42;
 }
 
-.hide{
+.hide {
   display: none;
 }
 
-.show{
+.show {
   display: flex;
 }
 
@@ -122,7 +120,7 @@
   scrollbar-width: none;
 }
 
-#photoGallery{
+#photoGallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -131,9 +129,55 @@
   padding: 10px;
 }
 
-#photoGallery img{
-  width: 400px;
-  height: 400px;
+#photoGallery img {
+  width: 300px;
+  height: 350px;
   object-fit: cover;
   border-radius: 10px;
+}
+
+.active {
+  color: teal;
+}
+
+.bgimg {
+  background-image: url("./assets/10.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.bgimggradient {
+  background: rgb(247, 255, 243);
+  background: linear-gradient(
+      180deg,
+      rgba(247, 255, 243, 0) 29%,
+      rgba(255, 255, 255, 1) 74%
+    ),
+    url("./assets/10.jpg");
+  backdrop-filter: blur(5.5px);
+  filter: contrast(1.2);
+  background-size: cover;
+  background-position: center;
+}
+
+.glassbox {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8.5px);
+  -webkit-backdrop-filter: blur(8.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.glass img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  background-position: center;
+}
+
+#menuContents {
+  transition: all 0.5s ease;
 }
