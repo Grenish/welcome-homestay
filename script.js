@@ -23,3 +23,10 @@ window.addEventListener("load", function () {
 
   setInterval(scrollCarousel, 5000); // Change automatically every 5 seconds
 });
+
+function openWhatsapp() {
+  var phoneNumber = "+919083831824";
+  var message = "Hello, I want to book a stay at your place!";
+  var apiLink = "https://api.whatsapp.com/send?phone=" + phoneNumber + "&text=" + encodeURIComponent(message);
+  window.open(apiLink, "_blank");
+};
