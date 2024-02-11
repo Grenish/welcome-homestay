@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome Homestay Darjeeling</title>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="shortcut icon" href="../favicon/logo2.png" type="image/x-icon" />
+    <meta name="description"
+        content="Experience the warm hospitality of WelcomeHomestay, your ultimate homestay destination in enchanting Darjeeling. Immerse yourself in the wonders of this picturesque town, as we welcome you as part of our extended family. Discover the beauty of Darjeeling with a stay at WelcomeHomestay, where heartfelt hospitality meets the breathtaking landscapes of this charming locale." />
+    <meta name="keywords"
+        content="Darjeeling, Homestay, Welcome Homestay, Webpage, Family, Budget, Cozy, Mountain, Himalaya, Charming, Tea, Queen, Comfort, Taste, Food, View, Travel, Tourist, Friendly, Best Tea, Local, Experience, Serenity" />
+    <meta name="author" content="John Doe" />
+    <script src="Components.js" defer></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: "#da373d",
+                        lightb: "#B8DBD9",
+                        spring: "#04724D",
+                        back: "#FDF5E6",
+                        orchid: "#EFB9CB",
+                    },
+                },
+            },
+        };
+    </script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="w-full p-2 border-2 rounded-b-xl border-slate-200">
+        <nav
+            class="w-full sm:w-[85%] m-auto sm:flex flex-col transition-all duration-200 ease-in-out justify-between items-center">
+            <div class="w-full flex justify-between items-center">
+                <div class="">
+                    <a href="../index.html">
+                        <img src="../assets/logo.png" alt="Welcome homestay logo" class="w-28" />
+                    </a>
+                </div>
+                <div class="md:flex hidden items-center space-x-5">
+                    <ul class="md:flex hidden space-x-4 items-center">
+                        <li>
+                            <a href="../index.html" class="active">Home</a>
+                        </li>
+                        <li>
+                            <a href="../pages/about.html">About us</a>
+                        </li>
+                        <li>
+                            <a href="../pages/gallery.html">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="../pages/services.html">Our Services</a>
+                        </li>
+                        <li>
+                            <a href="../pages/services.html">Places</a>
+                        </li>
+                        <li>
+                            <a href="#contactus">Contact us</a>
+                        </li>
+                    </ul>
+                    <button
+                        class="sm:flex hidden items-center border-2 border-green-500 pr-2 hover:bg-green-200 transition-colors duration-200 ease-in-out p-1 rounded-xl justify-between sm:text-md text-sm"
+                        id="openWhatsApp">
+                        <img src="../icons/whatsapp.svg" alt="" class="sm:w-8 w-7 mr-1" />
+                        WhatsApp
+                    </button>
+                </div>
+                <div class="block sm:hidden">
+                    <button id="toggleMenu" class="hamburger">
+                        <label>
+                            <input type="checkbox" id="toggleCheckbox" />
+                            <svg viewBox="0 0 32 32">
+                                <path class="line line-top-bottom"
+                                    d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22">
+                                </path>
+                                <path class="line" d="M7 16 27 16"></path>
+                            </svg>
+                        </label>
+                    </button>
+                </div>
+            </div>
+            <div class="w-full hidden" id="menuContents">
+                <ul class="flex flex-col justify-center items-center mt-2 rounded-md border-2 space-y-2">
+                    <li>
+                        <a href="../index.html" class="active">Home</a>
+                    </li>
+                    <li>
+                        <a href="../pages/about.html">About Us</a>
+                    </li>
+                    <li>
+                        <a href="../pages/gallery.html">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="#contactus">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <h1 class="text-center font-bold text-xl mt-5 text-gray-600">Places to Visit</h1>
+    <div class="mt-5">
+        <!-- Orange Garden -->
+        <div class="px-6 pb-5 md:px-28 flex flex-col-reverse md:flex-row h-full md:h-[40vh] gap-6 md:gap-10">
+            <div class="md:w-1/2 bg-back flex flex-col p-5 rounded-xl">
+                <span class="mont text-xl font-semibold text-gray-600">Orange Garden</span>
+                <span class="text-sm mt-5 font-medium leading-relaxed">
+                    Indulge in a unique delight as you pluck ripe oranges directly from the hillside and savor their
+                    freshness and youthfulness. This exceptional experience awaits you in the quaint hamlet of Bara
+                    Mangwa, nestled within the scenic beauty of Takdah in Darjeeling.
+                </span>
+            </div>
+            <div class="md:w-1/2 bg-back h-full rounded-xl overflow-hidden">
+                <img src="../assets/orange-garden.jpeg" alt="relevant description" class="h-full w-full object-cover" />
+            </div>
+        </div>
+
+        <!-- Rafting -->
+        <div class="px-6 pb-5 md:px-28 flex flex-col-reverse md:flex-row-reverse h-full md:h-[40vh] gap-6 md:gap-10">
+            <div class="md:w-1/2 bg-back flex flex-col p-5 rounded-xl">
+                <span class="mont text-xl font-semibold text-gray-600">
+                    White River Rafting
+                </span>
+                <span class="text-sm mt-3 leading-relaxed font-medium">
+                    Embark on an exhilarating adventure suitable for the entire family - white water river rafting
+                    stands out as a top choice. The powerful currents of River Teesta and Rangeet cascade through the
+                    Himalayan ranges, forming foaming rapids of varying intensities. These stretches offer ideal
+                    conditions for both novice adventurers and experienced rafters alike, promising an unforgettable
+                    experience amidst nature's awe-inspiring beauty.
+                </span>
+            </div>
+            <div class="md:w-1/2 bg-back h-full rounded-xl overflow-hidden">
+                <img src="../assets/rafting.jpg" alt="relevant description" class="h-full w-full object-cover" />
+            </div>
+        </div>
+
+        <!-- Tea Garden -->
+        <div class="px-6 pb-5 md:px-28 flex flex-col-reverse md:flex-row-reverse h-full md:h-[40vh] gap-6 md:gap-10">
+            <div class="md:w-1/2 bg-back h-full rounded-xl overflow-hidden">
+                <img src="../assets/tea-garden.jpg" alt="relevant description" class="h-full w-full object-cover" />
+            </div>
+            <div class="md:w-1/2 bg-back flex flex-col p-5 rounded-xl">
+                <span class="mont text-xl font-semibold text-gray-600">
+                    Peshok Tea Garden
+                </span>
+                <span class="text-sm mt-3 leading-relaxed font-medium">
+                    Discover the beauty of Peshok Tea Garden, just a stone's throw from our homestay. Surrounded by lush
+                    greenery in Darjeeling, it's a serene escape into nature. Wander through tea plantations, soak in
+                    the colors and scents, and learn about tea cultivation. With the Himalayas as a backdrop, Peshok is
+                    more than a destination; it's an unforgettable experience.
+                </span>
+            </div>
+        </div>
+
+        <!-- Lamahatta -->
+        <div class="px-6 pb-5 md:px-28 flex flex-col-reverse md:flex-row-reverse h-full md:h-[40vh] gap-6 md:gap-10">
+            <div class="md:w-1/2 bg-back flex flex-col p-5 rounded-xl">
+                <span class="mont text-xl font-semibold text-gray-600">
+                    Lamahatta
+                </span>
+                <span class="text-sm mt-3 leading-relaxed font-medium">
+                    Lamahatta is a tiny village found 23km from Darjeeling's main town. It's surrounded by pine forests and offers a stunning view of Mt Kanchenjunga. This charming village became an eco-tourism spot in late 2012. The name "Lamahatta" comes from "Lama" meaning Buddhist monk and "Hatta" meaning hut - a monk's dwelling.
+                </span>
+            </div>
+            <div class="md:w-1/2  h-full rounded-xl overflow-hidden">
+                <img src="../assets/lamahatta.jpg" alt="relevant description" class="h-full w-full object-contain" />
+            </div>
+        </div>
+
+        <!-- Triveni -->
+        <div class="px-6 pb-5 md:px-28 flex flex-col-reverse md:flex-row-reverse h-full md:h-[40vh] gap-6 md:gap-10">
+            <div class="md:w-1/2 bg-back h-full rounded-xl overflow-hidden">
+                <img src="../assets/triveni.jpg" alt="relevant description" class="h-full w-full object-cover" />
+            </div>
+            <div class="md:w-1/2 bg-back flex flex-col p-5 rounded-xl">
+                <span class="mont text-xl font-semibold text-gray-600">
+                    Triveni or Teesta-Rangeet
+                </span>
+                <span class="text-sm mt-3 leading-relaxed font-medium">
+                    Experience the breathtaking sight of the Great Rangeet River merging with the Teesta, a true delight
+                    for nature enthusiasts. However, this incredible spectacle isn't easily accessible. You'll need to
+                    venture a bit further from Darjeeling to witness this convergence. At the Triveni point, the
+                    emerald-green waters of the Rangeet River flow gracefully to meet the powerful currents of the
+                    Teesta, creating a mesmerizing scene.
+                </span>
+            </div>
+        </div>
+
+        <!-- Gumba Dara -->
+        <div class="px-6 pb-5 md:px-28 flex flex-col-reverse md:flex-row-reverse h-full md:h-[40vh] gap-6 md:gap-10">
+            <div class="md:w-1/2 bg-back flex flex-col p-5 rounded-xl">
+                <span class="mont text-xl font-semibold text-gray-600">
+                    Gumba Dara
+                </span>
+                <span class="text-sm mt-3 leading-relaxed font-medium">
+                    In Nepali, "Gumba" translates to monastery, while "Dara" refers to a hilltop. The name of this place
+                    originates from an ancient Buddhist monastery nestled within a natural cave atop the hill.
+                    Unfortunately, the original monastery now lies in ruins. However, a newer monastery has been
+                    constructed approximately 1.5 kilometers away. During the winter season, the mesmerizing view of the
+                    majestic Kanchenjunga from this location is truly captivating. Its snow-capped peaks create a
+                    stunning sight against the clear, crisp winter sky, leaving visitors in awe of its beauty.
+                </span>
+            </div>
+            <div class="md:w-1/2 bg-back h-full rounded-xl overflow-hidden">
+                <img src="../assets/gumbadara.jpg" alt="relevant description" class="h-full w-full object-cover" />
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="border-t-2 rounded-t-xl border-x-2 py-5 md:px-2 lg:px-28">
+        <div class="flex flex-col md:flex-row md:items-start md:justify-between pb-4">
+            <!-- Footer left -->
+            <div class="flex flex-col items-center mb-6 md:mb-0 md:items-start md:w-1/2">
+                <img src="../assets/logo-transparent.png" alt="logo" class="w-36 mb-2 md:mb-3" />
+                <h2 class="mont text-xl md:text-2xl font-bold text-center md:text-left">
+                    WELCOME HOMESTAY
+                </h2>
+                <p class="text-xs md:w-2/3 text-center md:text-left leading-snug mt-2">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+                    est obcaecati possimus?
+                </p>
+                <div class="flex mt-3 gap-3">
+                    <a href="" target="_blank" aria-label="Facebook" rel="noopener noreferrer">
+                        <img src="../icons/facebook.svg" alt="Facebook" class="w-6" />
+                    </a>
+                    <a href="" target="_blank" aria-label="Instagram" rel="noopener noreferrer">
+                        <img src="../icons/instagram.svg" alt="Instagram" class="w-6" />
+                    </a>
+                    <a href="" target="_blank" aria-label="Twitter" rel="noopener noreferrer">
+                        <img src="../icons/twitter.svg" alt="Twitter" class="w-6" />
+                    </a>
+                </div>
+            </div>
+            <!-- Footer right -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:w-1/2 p-6 sm:p-0">
+                <div class="">
+                    <span class="mont font-bold">Quick Links</span>
+                    <ul class="p-2">
+                        <li class="mont text-sm">
+                            <a href="../index.html">Home</a>
+                        </li>
+                        <li class="mont text-sm mt-2">
+                            <a href="../pages/about.html">About Us</a>
+                        </li>
+                        <li class="mont text-sm mt-2">
+                            <a href="../pages/gallery.html">Gallery</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="">
+                    <span class="mont font-bold">Support</span>
+                    <ul class="p-2">
+                        <li class="mont text-sm">
+                            <a href="../pages/../index.html#contactus">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="">
+                    <span class="mont font-bold">Policies</span>
+                    <ul class="p-2">
+                        <li class="mont text-sm">
+                            <a href="#">Rules</a>
+                        </li>
+                        <li class="mont text-sm mt-2">
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                        <li class="mont text-sm mt-2">
+                            <a href="#">Terms & Conditions</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr class="mb-4" />
+        <!-- Footer bottom -->
+        <div class="flex flex-col md:flex-row justify-between items-center md:items-end text-center md:text-left">
+            <span class="mont text-xs mb-2 md:mb-0">© 2024 Welcome Homestay</span>
+            <div class="text-xs mont flex flex-col">
+                <span>Maintained by Kunsang Moktan</span>
+                <span>
+                    <a href="https://grenishrai.vercel.app/" target="_blank" rel="noopener noreferrer">
+                        Designed & Developed by Grenish Rai
+                    </a>
+                </span>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
